@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anshulch/weatherUingFunc/static/css/main.11e2c314.chunk.css",
-    "main.js": "/anshulch/weatherUingFunc/static/js/main.a17c3397.chunk.js",
-    "main.js.map": "/anshulch/weatherUingFunc/static/js/main.a17c3397.chunk.js.map",
-    "runtime-main.js": "/anshulch/weatherUingFunc/static/js/runtime-main.9d482038.js",
-    "runtime-main.js.map": "/anshulch/weatherUingFunc/static/js/runtime-main.9d482038.js.map",
-    "static/js/2.9adb26c4.chunk.js": "/anshulch/weatherUingFunc/static/js/2.9adb26c4.chunk.js",
-    "static/js/2.9adb26c4.chunk.js.map": "/anshulch/weatherUingFunc/static/js/2.9adb26c4.chunk.js.map",
-    "index.html": "/anshulch/weatherUingFunc/index.html",
-    "precache-manifest.3df70639e8f11a5f685a0e50bfbfee51.js": "/anshulch/weatherUingFunc/precache-manifest.3df70639e8f11a5f685a0e50bfbfee51.js",
-    "service-worker.js": "/anshulch/weatherUingFunc/service-worker.js",
-    "static/css/main.11e2c314.chunk.css.map": "/anshulch/weatherUingFunc/static/css/main.11e2c314.chunk.css.map",
-    "static/js/2.9adb26c4.chunk.js.LICENSE.txt": "/anshulch/weatherUingFunc/static/js/2.9adb26c4.chunk.js.LICENSE.txt"
+    "main.css": "/weatherUingFunc/static/css/main.11e2c314.chunk.css",
+    "main.js": "/weatherUingFunc/static/js/main.11a99a65.chunk.js",
+    "main.js.map": "/weatherUingFunc/static/js/main.11a99a65.chunk.js.map",
+    "runtime-main.js": "/weatherUingFunc/static/js/runtime-main.1d6cbfc0.js",
+    "runtime-main.js.map": "/weatherUingFunc/static/js/runtime-main.1d6cbfc0.js.map",
+    "static/js/2.9adb26c4.chunk.js": "/weatherUingFunc/static/js/2.9adb26c4.chunk.js",
+    "static/js/2.9adb26c4.chunk.js.map": "/weatherUingFunc/static/js/2.9adb26c4.chunk.js.map",
+    "index.html": "/weatherUingFunc/index.html",
+    "precache-manifest.ff801616948e0b30bc0f2eea47227c5c.js": "/weatherUingFunc/precache-manifest.ff801616948e0b30bc0f2eea47227c5c.js",
+    "service-worker.js": "/weatherUingFunc/service-worker.js",
+    "static/css/main.11e2c314.chunk.css.map": "/weatherUingFunc/static/css/main.11e2c314.chunk.css.map",
+    "static/js/2.9adb26c4.chunk.js.LICENSE.txt": "/weatherUingFunc/static/js/2.9adb26c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d482038.js",
+    "static/js/runtime-main.1d6cbfc0.js",
     "static/js/2.9adb26c4.chunk.js",
     "static/css/main.11e2c314.chunk.css",
-    "static/js/main.a17c3397.chunk.js"
+    "static/js/main.11a99a65.chunk.js"
   ]
 }
