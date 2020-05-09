@@ -14,10 +14,9 @@ const SearchBar = () => {
       event.preventDefault();
       setCityName(city)
   } 
-
   useEffect(() => {
     axios
-      .get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=ed4b308f42f0e027100ebd456036b27a&units=metric`)
+      .get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=ed4b308f42f0e027100ebd456036b27a&units=metric`)
       .then(res => {
         setCityWeather(res.data);
       })
