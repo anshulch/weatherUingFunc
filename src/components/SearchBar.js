@@ -26,7 +26,8 @@ const SearchBar = () => {
   }, [cityName]);
 
   return (
-    <div>
+    <div className="search__box">
+        <h1>Using function components and useState, useEffect Hooks</h1>
       <form onSubmit={handleCity}>
         <input
           type="text"

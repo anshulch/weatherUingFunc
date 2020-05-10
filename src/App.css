@@ -380,11 +380,21 @@ textarea::placeholder,
 .job__posted{
     font-size:70%
 }
+body{
+  background-color: #eee;
+}
 
 .App {
   margin: 20px auto;
   width: 95%;
-  color:#777
+  color:#777;
+}
+
+.search__box{
+  border: 1px solid #fff;
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
 }
 
 input, button{
@@ -402,18 +412,18 @@ input{
 
 input::placeholder{
   font-size: 11px;
-  color:red
+  color:#F2B635
 }
 
 button{
   width: 20%;
-  background-color: red;
+  background-color: #F2B635;
   color: #fff;
-  border-color: red;
+  border-color: #F2B635;
 }
 
 .city{
-  color:red
+  color:#F2B635
 }
 
 li span{
@@ -421,7 +431,56 @@ li span{
   display: inline-block;
 }
 .result__section{
-  margin-top: 2rem;
+  margin: 0.8rem 0 0 0.8rem;
   line-height: 1.5rem;
+  /* min-height: 145px; */
 }
+
+.animated-bg {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderEffect;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eee 8%, #F7f7f7 18%, #eee 33%);
+  background-size: 800px 104px;
+  /* height: 100px; */
+}
+
+.background-mask {
+  background: #fff;
+  min-height: 1rem;
+  margin-bottom: 1rem;
+}
+.card .background-mask:last-child{
+  margin-bottom: auto;
+  width: 60%;
+}
+
+.error{
+  margin-top: 1rem;
+  color: mediumvioletred;
+}
+.success{
+  color: green;
+}
+h1{
+  margin-bottom: 1rem;
+}
+
+@keyframes placeHolderEffect {
+  0% {
+    background-position: -200px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+@media (max-width: 575.98px) { 
+  input{ width: 70%}
+  button{ width: 30%}
+}
+
 
